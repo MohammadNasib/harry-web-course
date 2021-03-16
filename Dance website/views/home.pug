@@ -1,0 +1,22 @@
+extends base.pug
+
+block scripts
+    script(src="../static/script.js")
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#introSection
+      h3#name Welcome to Pro Dance Academy
+      div.small Dance to Live-Live to Dance
+
+    section#sponsorSection
+      h2 Out sponsors
+      div#sponsors
+        img(src='../static/apple.png', alt="",class='spImg')
+        img(src='../static/microsoft.jpg', alt="",class='spImg')
+        img(src='../static/hp.png', alt="",class='spImg')
+        img(src='../static/skype.png', alt="",class='spImg')
+

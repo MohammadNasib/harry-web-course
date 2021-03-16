@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--this !DOCTYPE is good to display the page in browser>
+<!-- this is the system i can write commnet -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>this is title</title>
+  </head>
+
+  <body>
+    <!-- heading tags -->
+
+    <!-- <h1>This is most important heading </h1>
+   <h2>This is next most important heading </h2>
+   <h3>This is next most important heading </h3>
+   <h4>This is next most important heading </h4>
+   <h56>This is next most important heading </h56>
+   <h6>This is next most important heading </h6> -->
+
+    <!-- paragraph tag -->
+
+    <!-- <p>This is paragraph tag</p> -->
+
+    <!-- horizontal bar -->
+
+    <!-- <hr> -->
+
+    <!-- html link or hyperlink -->
+
+    <!-- <a href='https://www.youtube.com' target="_blank">Visit youtube  here</a> -->
+
+    <!-- this is for internal link  -->
+
+    <!-- <a href="/nasib.html" target="_blank">Tut 4</a> -->
+
+    <!-- image tag -->
+
+    <!--for img tag picture should be in the same file-->
+
+    <!-- <img src="kaba.jpg"  alt="kaba.jpg" width="500" height="350"> -->
+
+    <!-- button tag  -->
+
+    <!-- <button>I'm Button </button> -->
+
+    <!-- unorderd // bullet list -->
+
+    <!-- <ul>
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Snaks</li>
+    </ul> -->
+
+    <!-- orderd // numberd list -->
+
+    <!-- <ol>
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Snaks</li>
+    </ol> -->
+
+    <!-- empty html element -->
+
+    <!-- HTML elements with no content are called empty elements.-->
+
+    <!-- <p>This is a <br> paragraph with a line break.</p>  -->
+
+    <!-- ATTRIBUTES -->
+
+    <!-- suggestion: lowercas attributes,Quote Attribute Values  -->
+
+    <!-- <a has href -->
+    <!-- <img has src, alt,width,heigth -->
+    <!-- <p has style--the style has element like color,size,font etc -->
+    <!-- <p has title -->
+    <!-- <meta has lang -->
+    <!-- <meta has lang -->
+
+    <!-- preformatted tag -->
+
+    <!-- The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks: -->
+
+    <!-- <pre>
+    My Bonnie lies over the ocean.
+
+    My Bonnie lies over the sea.
+
+    My Bonnie lies over the ocean.
+
+    Oh, bring back my Bonnie to me.
+    </pre> -->
+
+    <!-- title in paraghraph tag -->
+    <!-- <p title="I'm a tooltip">
+        This is a paragraph.
+    </p> -->
+
+    <!-- The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks: -->
+    <!-- <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+      </pre>
+       -->
+
+    <!-- Browsers usually insert quotation marks around the <q> element. -->
+    <!-- <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> -->
+
+    <!-- Browsers usually indent <blockquote> elements. -->
+    <!-- <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+    </blockquote> -->
+
+    <!-- The HTML <abbr> element defines an abbreviation or an acronym. -->
+    <!-- <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> -->
+
+    <!-- The HTML <address> element defines contact information (author/owner) of a document or an article. -->
+    <!-- <p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address> -->
+
+    <!-- The HTML <cite> element defines the title of a work. -->
+    <!-- <p>The HTML cite element defines the title of a work.</p>
+    <p>Browsers usually display cite elements in italic.</p>
+
+    <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> -->
+
+    <!-- The <bdo> element is used to override the current text direction: -->
+    <!-- <p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):
+    </p>
+
+    <bdo dir="rtl">This line will be written from right to left</bdo> -->
+
+    <!-- image-map -->
+    <!-- <h2>Image Maps</h2>
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map> -->
+
+    <!-- picture tag -->
+    <h2>The picture Element</h2>
+
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_food.jpg" />
+      <source media="(min-width: 465px)" srcset="img_car.jpg" />
+      <img src="img_girl.jpg" style="width: auto;" />
+    </picture>
+
+    <p>
+      Resize the browser to see different versions of the picture loading at
+      different viewport sizes. The browser looks for the first source element
+      where the media query matches the user's current viewport width, and
+      fetches the image specified in the srcset attribute.
+    </p>
+
+    <p>
+      The img element is required as the last child tag of the picture
+      declaration block. The img element is used to provide backward
+      compatibility for browsers that do not support the picture element, or if
+      none of the source tags matched.
+    </p>
+
+    <p>
+      <strong>Note:</strong> The picture element is not supported in IE12 and
+      earlier or Safari 9.0 and earlier.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+
+    style
+        include style.css
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Get the membership of the GYM for 50$!  Fill the form now</h1>
+
+        <form action="/" method="POST" id="contact">
+        <input type="text" name='name' id="name" placeholder="Enter ur name">
+        <input type="text" name='age' id="age" placeholder="Enter ur age">
+        <input type="text" name='phone' id="phone" placeholder="Enter ur Phone number">
+        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter ur address"></textarea>
+        <button class="btn">Submit</button>
+        </form>
+    </div>
+
+    <!-- <h1>
+    |#{content}
+    
+    |And This is a plain html in pug
+    |</h1> -->
+</body>
+
+</html>

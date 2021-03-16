@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+}
+
+#navbar{
+    padding: 15px 11px;
+    background-color:rgb(81, 216, 19);
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    margin: 0px 17px;
+}
+
+
+#logo img{
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+    padding:15px 20px ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#navbar li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#introSection div.small{
+    font-size: 2rem;
+}
+#introSection{
+    background: center/cover no-repeat url('../static/bg.jpg');
+    height: 411px;
+    background-color:white;
+    color: white;
+    align-items: center;
+    justify-content: center; 
+    display: flex; 
+    flex-direction: column;
+    font-size: 35px;
+}
+#sponsorSection{
+    height: 370px;
+    background-color: #bfffa2;
+    margin: 15px 0px;
+}
+
+#sponsorSection h2{
+    font-size: 41px;
+    text-align: center;
+    padding-top: 11px;
+}
+
+
+
+#sponsors{
+    height: 145px;
+    max-width: 1000px;
+    margin: 51px auto;
+}
+
+.spImg{
+    height:100%;
+    margin: 29px;
+}
+
+#footer{
+    height: 30px;
+    background-color: rgb(66, 63, 63);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#name{
+    font-size: 57px;
+    color: white;
+}
+
+h1{
+    font-size: 73px;
+}
+
